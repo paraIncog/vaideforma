@@ -51,9 +51,9 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
-import UserForm from "../components/UserForm.vue";
+import UserForm from "@/components/UserForm.vue";
 import { fetchUsers, updateUser, deleteUser } from "@/stores/users";
-import type { User } from "../types";
+import type { User } from "@/types";
 
 const users = ref<User[]>([]);
 const loading = ref(true);

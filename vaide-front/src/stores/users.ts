@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { User } from "../types";
+import type { User } from "@/types";
 
 const base =
   import.meta.env.VITE_API_BASE ??
